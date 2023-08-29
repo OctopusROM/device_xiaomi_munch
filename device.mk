@@ -28,6 +28,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksOverlay \
+    NFCOverlay \
     SettingsOverlay \
     SystemUIOverlay \
     SettingsOverlay22021211RC \

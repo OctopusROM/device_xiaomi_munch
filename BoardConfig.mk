@@ -26,6 +26,7 @@ TARGET_KERNEL_CONFIG += vendor/munch_defconfig
 TARGET_OTA_ASSERT_DEVICE := munch,munch_global,munch_in
 
 # Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Inherit from the proprietary version
