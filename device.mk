@@ -341,6 +341,9 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
 # NFC
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.boot.hardware.sku=munch
+
 PRODUCT_PACKAGES += \
     android.hardware.nfc_snxxx@1.2-service \
     com.android.nfc_extras \
@@ -384,6 +387,7 @@ PRODUCT_PACKAGES += \
     MunchGLOBALWifiOverlay \
     MunchINDIASettingsProviderOverlay \
     MunchINDIAWifiOverlay \
+    MunchNfcOverlay \
     SettingsOverlay22021211RC \
     SettingsOverlay22021211RG \
     SettingsOverlay22021211RI 
