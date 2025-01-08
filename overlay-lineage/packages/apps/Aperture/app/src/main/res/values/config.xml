@@ -37,6 +37,9 @@
              </string-array>
     -->
     <string-array name="config_additionalVideoConfigurations">
-        <item>0</item> <item>sd|hd|fhd|uhd</item> <item>60</item>
+        <item>0</item> <item>sd|hd|fhd|uhd</item> <item>30|60</item> <!-- Main -->
+        <item>1</item> <item>sd|hd|fhd</item> <item>30|60</item> <!-- Front  -->
+        <item>2</item> <item>sd|hd|fhd|uhd</item> <item>30|60</item> <!-- Ultrawide -->
+        <item>3</item> <item>sd|hd|fhd</item> <item>30|60</item> <!-- Macro -->
     </string-array>
 </resources>
