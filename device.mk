@@ -26,11 +26,10 @@ PRODUCT_PACKAGES += \
     libpiex_shim
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
-
 PRODUCT_PACKAGES += \
+    FrameworksOverlay \
+    SettingsOverlay \
+    SystemUIOverlay \
     SettingsOverlay22021211RC \
     SettingsOverlay22021211RG \
     SettingsOverlay22021211RI \
@@ -39,7 +38,8 @@ PRODUCT_PACKAGES += \
     SettingsProviderOverlay22021211RI \
     WifiOverlay22021211RC \
     WifiOverlay22021211RG \
-    WifiOverlay22021211RI
+    WifiOverlay22021211RI \
+    ApertureOverlay
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
